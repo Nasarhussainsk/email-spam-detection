@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and editor files
+.env
+.vscode/
+.idea/
+
+# Runtime quarantine can contain submitted email text
+data/quarantine/*.csv
+
+# OS metadata
+.DS_Store
+Thumbs.db
